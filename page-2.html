@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/oscilon-vix/assets/styles-xItrgcxo.css">
+    <link rel="stylesheet" crossorigin href="/oscilon-vix/assets/styles-CJsz6v6N.css">
   </head>
   <body>
-    <header class="header">
+    <div class="mobile-menu">
+  <div class="mobile-menu__header">
+      <span class="mobile-menu__logo">Oscilon<span class="text-accent">-Vix</span></span>
+      <button class="mobile-menu__close" aria-label="Close menu">
+          <i data-lucide="x"></i>
+      </button>
+  </div>
+  <nav class="mobile-menu__nav">
+      <a href="#" class="mobile-menu__link">Главная</a>
+      <a href="#about" class="mobile-menu__link">О платформе</a>
+      <a href="#innovations" class="mobile-menu__link">Технологии</a>
+      <a href="#education" class="mobile-menu__link">Обучение</a>
+      <a href="#blog" class="mobile-menu__link">Блог</a>
+      <a href="#contact" class="mobile-menu__btn btn btn--primary">Связаться</a>
+  </nav>
+</div>
+
+<header class="header">
   <div class="container header__container">
       <a href="/" class="header__logo">
           Oscilon<span class="text-accent">-Vix</span>
@@ -27,6 +44,7 @@
 
       <div class="header__actions">
           <a href="#contact" class="btn btn--primary">Связаться</a>
+
           <button class="header__burger" aria-label="Menu">
               <i data-lucide="menu"></i>
           </button>
