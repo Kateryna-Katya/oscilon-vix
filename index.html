@@ -6,15 +6,15 @@
     <title>Oscilon-Vix | AI для реальной жизни</title>
     <meta name="description" content="AI-инструменты для реальных задач. Технологии, которые работают на вас.">
 
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3ClinearGradient id='a' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FF007F'/%3E%3Cstop offset='1' stop-color='%239D00FF'/%3E%3C/linearGradient%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23a)'/%3E%3C/svg%3E">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;400;500&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script type="module" crossorigin src="/oscilon-vix/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/oscilon-vix/assets/styles-CJsz6v6N.css">
+    <script type="module" crossorigin src="/oscilon-vix/assets/main-DfWiU4Hl.js"></script>
+    <link rel="stylesheet" crossorigin href="/oscilon-vix/assets/main-DLsfIFGY.css">
   </head>
   <body>
     <div class="mobile-menu">
@@ -25,34 +25,34 @@
       </button>
   </div>
   <nav class="mobile-menu__nav">
-      <a href="#" class="mobile-menu__link">Главная</a>
-      <a href="#about" class="mobile-menu__link">О платформе</a>
-      <a href="#innovations" class="mobile-menu__link">Технологии</a>
-      <a href="#education" class="mobile-menu__link">Обучение</a>
-      <a href="#blog" class="mobile-menu__link">Блог</a>
-      <a href="#contact" class="mobile-menu__btn btn btn--primary">Связаться</a>
+      <a href="./#hero" class="mobile-menu__link">Главная</a>
+      <a href="./#about" class="mobile-menu__link">О платформе</a>
+      <a href="./#innovations" class="mobile-menu__link">Технологии</a>
+      <a href="./#education" class="mobile-menu__link">Обучение</a>
+      <a href="./#test-cta" class="mobile-menu__link">Тест</a>
+      <a href="./#contact" class="mobile-menu__btn btn btn--primary">Связаться</a>
   </nav>
 </div>
 
 <header class="header">
   <div class="container header__container">
-      <a href="/" class="header__logo">
+      <a href="./#hero" class="header__logo">
           Oscilon<span class="text-accent">-Vix</span>
       </a>
 
       <nav class="header__nav">
           <ul class="header__menu">
-              <li><a href="#" class="header__link">Главная</a></li>
-              <li><a href="#about" class="header__link">О платформе</a></li>
-              <li><a href="#benefits" class="header__link">Возможности</a></li>
-              <li><a href="#innovations" class="header__link">Технологии</a></li>
-              <li><a href="#education" class="header__link">Обучение</a></li>
-              <li><a href="#blog" class="header__link">Блог</a></li>
+              <li><a href="./#hero" class="header__link">Главная</a></li>
+              <li><a href="./#about" class="header__link">О платформе</a></li>
+              <li><a href="./#benefits" class="header__link">Возможности</a></li>
+              <li><a href="./#innovations" class="header__link">Технологии</a></li>
+              <li><a href="./#education" class="header__link">Обучение</a></li>
+              <li><a href="./#test-cta" class="header__link">Тест</a></li>
           </ul>
       </nav>
 
       <div class="header__actions">
-          <a href="#contact" class="btn btn--primary">Связаться</a>
+          <a href="./#contact" class="btn btn--primary">Связаться</a>
 
           <button class="header__burger" aria-label="Menu">
               <i data-lucide="menu"></i>
@@ -63,45 +63,261 @@
 
     <main id="main-content">
       <!-- Loads the specified .html file -->
-      
+      <section id="hero" class="hero">
+  <canvas id="hero-canvas"></canvas>
+
+  <div class="hero__container container">
+      <div class="hero__content">
+          <h1 class="hero__title">
+              Интеллект,<br> который работает <span class="text-accent text-glow">на вас.</span>
+          </h1>
+          <p class="hero__desc">
+              Передовая цифровая инфраструктура для реальной жизни. AI-инструменты нового поколения, которые помогают воплотить мечты в реальность.
+          </p>
+          <div class="hero__btns">
+              <a href="#contact" class="btn btn--primary">Начать сейчас</a>
+              <a href="#about" class="btn btn--outline">Узнать больше</a>
+          </div>
+      </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+      </div>
+  </a>
+</section>
+<section id="about" class="section-padding">
+  <div class="container">
+      <div class="about-grid">
+          <div class="about-text">
+              <h2 class="section-title">Цифровая <span class="text-accent">Эволюция</span></h2>
+              <p class="section-desc">
+                  Мы не просто учим. Мы даем инструменты. Традиционные методы устарели.
+                  В эпоху цифрового шума побеждает тот, кто владеет технологиями нового поколения.
+                  Oscilon-Vix — это ваш доступ к инфраструктуре, которая работает, пока вы спите.
+              </p>
+          </div>
+          <div class="stats-wrapper">
+              <div class="stat-item">
+                  <span class="stat-num" data-target="98">0</span><span class="stat-sym">%</span>
+                  <p class="stat-label">Точность алгоритмов</p>
+              </div>
+              <div class="stat-item">
+                  <span class="stat-num" data-target="1500">0</span><span class="stat-sym">+</span>
+                  <p class="stat-label">Активных пользователей</p>
+              </div>
+              <div class="stat-item">
+                  <span class="stat-num" data-target="24">0</span><span class="stat-sym">/7</span>
+                  <p class="stat-label">Поддержка AI</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="benefits" class="section-padding">
+  <div class="container">
+      <div class="section-header">
+          <h2 class="section-title">Новые <span class="text-accent">Горизонты</span></h2>
+          <p class="section-subtitle">Решения, которые меняют правила игры.</p>
+      </div>
+
+      <div class="grid-3">
+          <div class="card">
+              <div class="card-icon"><i data-lucide="zap"></i></div>
+              <h3>Быстрый старт</h3>
+              <p>Подключение занимает 2 минуты. Никакой бюрократии, только чистый результат и понятный интерфейс.</p>
+          </div>
+          <div class="card card--glow">
+              <div class="card-icon"><i data-lucide="brain-circuit"></i></div>
+              <h3>AI-Ассистент</h3>
+              <p>Интеллектуальная система анализирует ваши задачи и предлагает оптимальные пути решения в реальном времени.</p>
+          </div>
+          <div class="card">
+              <div class="card-icon"><i data-lucide="shield-check"></i></div>
+              <h3>Безопасность</h3>
+              <p>Ваши данные защищены сквозным шифрованием. Мы ценим приватность превыше всего.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="innovations" class="section-padding">
+  <div class="container">
+      <div class="section-header">
+          <h2 class="section-title">Технологии <span class="text-accent">Ядра</span></h2>
+      </div>
+      <div class="tech-grid">
+          <div class="tech-item">
+              <div class="tech-head">
+                  <span class="tech-tag">GEN_AI_V4</span>
+                  <i data-lucide="cpu"></i>
+              </div>
+              <h3>Генеративные модели</h3>
+              <p>Создание контента, кода и стратегий за секунды.</p>
+          </div>
+          <div class="tech-item">
+              <div class="tech-head">
+                  <span class="tech-tag">AUTO_ML</span>
+                  <i data-lucide="workflow"></i>
+              </div>
+              <h3>Автоматизация</h3>
+              <p>Делегируйте рутину алгоритмам. Освободите время для жизни.</p>
+          </div>
+          <div class="tech-item">
+              <div class="tech-head">
+                  <span class="tech-tag">DATA_SYNC</span>
+                  <i data-lucide="database"></i>
+              </div>
+              <h3>Синхронизация</h3>
+              <p>Единая экосистема для всех ваших устройств и задач.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="test-cta" class="test-section">
+  <div class="test-bg"></div>
+  <div class="container test-container">
+      <span class="test-label">AI Assessment</span>
+      <h2 class="test-title">Готовы к цифровому будущему?</h2>
+      <p class="test-desc">
+          Пройдите экспресс-анализ ваших текущих процессов и узнайте,
+          как Oscilon-Vix может сэкономить вам до 40 часов в неделю.
+      </p>
+      <a href="#contact" class="btn btn--primary btn--large">Пройти диагностику</a>
+  </div>
+</section>
+
+<section id="education" class="section-padding">
+  <div class="container">
+      <div class="split-layout">
+          <div class="split-content">
+              <h2 class="section-title">Путь <span class="text-accent">Развития</span></h2>
+              <p class="section-desc">
+                  Пошаговая программа адаптации. От новичка до уверенного пользователя нейросетей за 4 модуля.
+              </p>
+          </div>
+          <div class="accordion">
+              <div class="accordion-item">
+                  <button class="accordion-header">
+                      <span>01. Основы архитектуры</span>
+                      <i data-lucide="plus" class="acc-icon"></i>
+                  </button>
+                  <div class="accordion-body">
+                      <div class="acc-content">
+                          Введение в экосистему. Как работает передовая цифровая инфраструктура и почему старые модели больше не приносят результат.
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <button class="accordion-header">
+                      <span>02. Промпт-инжиниринг</span>
+                      <i data-lucide="plus" class="acc-icon"></i>
+                  </button>
+                  <div class="accordion-body">
+                      <div class="acc-content">
+                          Учимся говорить с машиной на одном языке. Методологии составления запросов для получения идеальных результатов.
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <button class="accordion-header">
+                      <span>03. Автоматизация</span>
+                      <i data-lucide="plus" class="acc-icon"></i>
+                  </button>
+                  <div class="accordion-body">
+                      <div class="acc-content">
+                          Настройка связок между нейросетями и вашими рабочими инструментами (Notion, Google Docs, CRM).
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="contact" class="section-padding contact-section">
+  <div class="container">
+      <div class="contact-wrapper">
+          <div class="contact-form-box">
+              <h2 class="section-title">Начать <span class="text-accent">Сейчас</span></h2>
+              <p class="form-subtitle">Заполните форму для получения доступа к платформе.</p>
+
+              <form id="lead-form" class="form">
+                  <div class="input-group">
+                      <input type="text" id="name" required placeholder=" ">
+                      <label for="name">Ваше имя</label>
+                  </div>
+
+                  <div class="input-group">
+                      <input type="email" id="email" required placeholder=" ">
+                      <label for="email">Email</label>
+                  </div>
+
+                  <div class="input-group">
+                      <input type="tel" id="phone" required placeholder=" ">
+                      <label for="phone">Телефон</label>
+                  </div>
+
+                  <div class="input-group captcha-group">
+                      <label class="static-label">Сколько будет 5 + 4?</label>
+                      <input type="number" id="captcha" required placeholder="?">
+                  </div>
+
+                  <div class="form-check">
+                      <input type="checkbox" id="policy" required>
+                      <label for="policy">Я принимаю <a href="privacy.html">Политику конфиденциальности</a></label>
+                  </div>
+
+                  <button type="submit" class="btn btn--primary btn--full">Получить доступ</button>
+                  <div id="form-message" class="form-msg"></div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
     </main>
 
     <footer class="footer">
   <div class="container footer__container">
       <div class="footer__col">
-          <a href="/" class="footer__logo">
+          <a href="./#hero" class="footer__logo">
               Oscilon<span class="text-accent">-Vix</span>
           </a>
           <p class="footer__desc">
               Технологии нового поколения. Платформа года, которая делает AI доступным каждому. Воплотите мечты в реальность уже сегодня.
           </p>
           <div class="footer__socials">
-              <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
-              <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
-              <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+              <a href="https://www.facebook.com/" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+              <a href="https://x.com/" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+              <a href="https://www.instagram.com/" aria-label="Instagram"><i data-lucide="instagram"></i></a>
           </div>
       </div>
 
       <div class="footer__col">
           <h3 class="footer__title">Навигация</h3>
           <ul class="footer__list">
-              <li><a href="#">Главная</a></li>
-              <li><a href="#about">О платформе</a></li>
-              <li><a href="#innovations">Инновации</a></li>
-              <li><a href="#education">Практики</a></li>
-              <li><a href="#blog">Блог</a></li>
+              <li><a href="./#hero">Главная</a></li>
+              <li><a href="./#about">О платформе</a></li>
+              <li><a href="./#innovations">Инновации</a></li>
+              <li><a href="./#education">Практики</a></li>
+              <li><a href="./#test-cta">Тест</a></li>
           </ul>
       </div>
 
       <div class="footer__col">
           <h3 class="footer__title">Информация</h3>
           <ul class="footer__list">
-              <li><a href="privacy.html">Privacy Policy</a></li>
-              <li><a href="cookies.html">Cookie Policy</a></li>
-              <li><a href="terms.html">Terms of Use</a></li>
-              <li><a href="return.html">Return Policy</a></li>
-              <li><a href="disclaimer.html">Disclaimer</a></li>
-              <li><a href="personal-data-policy.html">Personal Data</a></li>
+              <li><a href="./privacy.html">Политика конфиденциальности</a></li>
+              <li><a href="./cookies.html">Политика использования файлов cookie</a></li>
+              <li><a href="./terms.html">Условия использования</a></li>
+              <li><a href="./return.html">Политика возврата средств</a></li>
+              <li><a href="./disclaimer.html">Дисклеймер</a></li>
+              <li><a href="./personal-data-policy.html">Политика касаемо обработки персональных данных</a></li>
           </ul>
       </div>
 
@@ -131,6 +347,12 @@
   </div>
 </footer>
 
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-content">
+          <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.</p>
+          <button id="accept-cookies" class="btn btn--primary btn--small">Принять</button>
+      </div>
+    </div>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </body>
